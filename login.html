@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login box</title>
+    <style>
+    *{
+      padding: 0px;
+      margin: 0px;
+    }
+      .login {
+        height: 100vh;
+        width: 100vw;
+        background-color: lightgray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+      }
+      .inner {
+        height: 50%;
+        width: 50%;
+        background-color: darkgray;
+        padding:  30px;
+        border: 2px solid black;
+        box-shadow: 5px 5px 5px 5px lightslategray;
+
+      }
+      .login label {
+        padding-top: 50px;
+        display: flex;
+        justify-content: center;
+        font-size: xx-large;
+        font-weight: bold;
+      }
+      .login input {
+        margin-top: 50px;
+        display: flex;
+        height: 50px;
+        width: 100%;
+        border-radius: 15px;
+        background-color: rgb(238, 240, 242);
+        color: black;
+      
+        font-size: medium;
+        font-weight: bold;
+        text-align: center;
+       
+      }
+      .login input:hover{
+        background-color: rgb(235, 239, 242);
+        cursor: pointer;
+      }
+      .login button {
+        height: 50px;
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 70px;
+        margin-left: 80px;
+        border-radius: 15px;
+        font-size: large;
+        font-weight: bold;
+        background-color: rgb(39, 37, 35);
+        color: white;
+      }
+      button:hover{
+        background-color: lightgray;
+      }
+    </style>
+  </head>
+  <body>
+  <form action="">
+    <div class="login">
+   
+      <div class="inner">
+        <label>Enter username</label>
+        <input type="text" placeholder="Enter your username" id="" />
+        <label> password</label>
+        <input type="password" placeholder="Enter your password" id="" />
+        <button>Login</button>
+      </div>
+    </div>
+    </form>
+  </body>
+</html>
